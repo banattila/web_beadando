@@ -1,0 +1,127 @@
+
+#kis-menu li {
+    width: 100%;
+    text-align: center;
+    background-color: #938686;
+    padding: 8px;
+    margin-bottom: 7px;
+    opacity: 0.5;
+    box-shadow: 3px 3px #444444;
+    transition: opacity 1s, font-weight 2s;
+}
+
+#kis-menu li a{
+    display: inline-block;
+    width: 100%;
+    transition: opacity 1s, font-weight 2s;
+}
+
+#kis-menu li:hover, #kis-menu li:focus{
+    opacity: 1;
+    font-weight: bolder;
+}
+#kis-menu a:hover #kis-menu a:focus{
+    font-style: normal;
+}
+
+#szolgaltatas{
+    position: static;
+}
+
+#szolgaltatas h3{
+    text-align: center;
+}
+
+#szolgaltatas ul li {
+    border-bottom: 1px solid #444444;
+    margin: 5px;
+    padding: 5px;
+}
+
+#szolgaltatas ul li:nth-child(even){
+    background-color: #938686;
+    border-bottom:2px solid #444444;
+}
+
+#feltoltes-icon{
+    margin-right: 10px;
+    width: 25px;
+    height: 25px;
+}
+
+#file-feltoltes{
+    animation: none;
+    display: inline-block;
+    cursor: pointer;
+}
+
+#regisztracio > h4{
+    text-align: center;
+    color: #938686;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+#form-kontener{
+    display: block;
+    margin: 20px;
+    width: 60%;
+}
+
+#img-kontener{
+    margin:auto;
+    width: 900px;
+    height: 400px;
+}
+
+#img-kontener img{
+    border-radius: 10px 0 ;
+    position: absolute;
+    top:200px;
+    width: 200px;
+    height: 320px;
+    z-index: auto;
+    opacity: .8;
+    transition: z-index 2s, height 2s, width 2s, opacity 2s;
+    transform: skewX(-5deg);
+}
+
+#img-kontener img:hover{
+    width: 240px;
+    height: 360px;
+    z-index: 100;
+    opacity: 1;
+}
+
+#kep_1{
+    left: 120px;
+}
+
+#kep_2{
+    left: 270px;
+}
+
+#kep_3{
+    left: 420px;
+}
+#kep_4{
+    left: 570px;
+}
+#kep_5{
+    left: 720px;
+}
+#kep_6{
+    left: 870px;
+}
+
+#media-player{
+    position: static;
+    margin: 20px;
+}
+#udv{
+    display: inline-block;
+}
+
+#adatok{
+    background-color: #efe6df;
+}
