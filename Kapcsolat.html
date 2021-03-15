@@ -16,7 +16,7 @@
 <body>
 <header>
     <a href="Kezdolap.html">
-        <img src="img/Kep_rolunk.png" alt="rolunk" width="150" height="150"/>
+        <img src="img/Kep_rolunk.png" alt="rolunk" width="100" height="100"/>
     </a>
     <nav>
         <ul>
@@ -29,13 +29,19 @@
     </nav>
 </header>
 <main>
-    <div id="regisztracio">
+    <div class="fontos" id="regisztracio">
         <h4>Ha szeretne kapcsolatba kerülni cégünkkel, akkor az alábbi oldalon szükgéges regisztrálni</h4>
+        <pre>
+            Ehhez kötezően meg kell adnia:
+            Felhasználónevet
+            E-mail címet
+            Jelszót
+        </pre>
+        <strong>A (*)-al jelölt mezők kitöltése kötelező</strong>
     </div>
     <div id="form-kontener">
         <form action="Kezdolap.html" method="post" enctype="multipart/form-data" autocomplete="off">
             <div class="fontos">
-                <strong>A (*)-al jelölt mezők kitöltése kötelező</strong>
             </div>
             <div class="input-container">
                 <label>Felhasználónév: <span>*</span>
@@ -45,7 +51,7 @@
             </div>
             <div class="input-container">
                 <label>E-mail cím:
-                    <input type="email" name="email" autocomplete="off" placeholder="példa@valami.hu"/>
+                    <input type="email" name="email" autocomplete="off" placeholder="példa@valami.hu" required/>
                 </label>
                 <label>Url cím:
                     <input type="url" name="url" autocomplete="off" placeholder="www.valami.hu"/>

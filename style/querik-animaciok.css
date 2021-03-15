@@ -35,13 +35,11 @@
     body{
         color: black;
         background-color: white;
+        text-shadow: none;
+        font-family: sans-serif;
     }
-    video, audio{
-        display: none;
-    }
-    table{
-        page-break-inside: avoid;
-    }
+    video, audio{display: none;}
+    table{page-break-inside: avoid;}
 }
 
 @page {
