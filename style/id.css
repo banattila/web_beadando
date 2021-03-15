@@ -66,6 +66,7 @@
     display: block;
     margin: 20px;
     width: 60%;
+    background-color: #efe6df;
 }
 
 #img-kontener{
@@ -99,4 +100,10 @@
 
 #adatok{
     background-color: #efe6df;
+}
+
+#mezok, #tabla-adat{
+    color: #938686;
+    font-style: italic;
+    text-decoration: underline #938686;
 }

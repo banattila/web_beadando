@@ -31,12 +31,12 @@
 <main>
     <div class="fontos" id="regisztracio">
         <h4>Ha szeretne kapcsolatba kerülni cégünkkel, akkor az alábbi oldalon szükgéges regisztrálni</h4>
-        <pre>
+<!--        <pre>
             Ehhez kötezően meg kell adnia:
             Felhasználónevet
             E-mail címet
             Jelszót
-        </pre>
+        </pre>-->
         <strong>A (*)-al jelölt mezők kitöltése kötelező</strong>
     </div>
     <div id="form-kontener">
@@ -44,6 +44,10 @@
             <div class="fontos">
             </div>
             <div class="input-container">
+                <label>Név: <span>*</span>
+                    <input type="text" name="nev" maxlength="30" required autocomplete="off"
+                           placeholder="Gipsz Jakab"/>
+                </label>
                 <label>Felhasználónév: <span>*</span>
                     <input type="text" name="fnev" maxlength="20" required autocomplete="off"
                            placeholder="Sanyi"/>
@@ -91,9 +95,12 @@
                 <label><input type="radio" name="nem"/>Férfi</label>
                 <label><input type="radio" name="nem"/>Nem nyilatkozom</label>
             </fieldset>
+            <fieldset>
+                <label><input type="checkbox" name="hirlevel" value="hirlevel" checked />Kérek hírlevelet</label>
+            </fieldset>
             <div>
-                <input class="gombok" type="submit" name="submit" value="Elküld"/>
-                <input class="gombok" type="reset" name="reset" value="Visszaállít"/>
+                <input type="submit" name="submit" value="Elküld"/>
+                <input type="reset" name="reset" value="Visszaállít"/>
             </div>
         </form>
     </div>
