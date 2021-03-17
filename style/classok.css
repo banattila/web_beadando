@@ -12,7 +12,7 @@
     content: '';
     border-bottom: solid 3px #444444;
     transform: scaleX(0);
-    transition: transform 1s ease-in-out;
+    transition: transform .5s ease-in-out;
     transform-origin:100% 50%
 }
 
@@ -50,3 +50,35 @@
 .media{
     margin-top: 20px;
 }
+
+.icon-menu{
+    position: relative;
+    float: right;
+    margin: 20px;
+    transition: all .75s ease-in-out;
+}
+
+.icon-menu-gomb{
+    padding: 10px;
+    background-color:transparent;
+    border: 3px solid black;
+}
+
+.icon-menu-tartalom{
+    position: absolute;
+    text-align: right;
+    right: 10px;
+    font-size: 2em;
+    border-bottom: 2px solid #494444;
+    display: none;
+}
+
+.icon-menu:hover {
+    background-color: #938686;
+    color: transparent;
+}
+
+.icon-menu:hover .icon-menu-tartalom {
+    display: block;
+}
+.fo-menu{}

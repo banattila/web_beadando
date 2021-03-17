@@ -3,11 +3,11 @@ html {
 }
 
 main {
-    width: 60%;
+    width: 50%;
     position: relative;
     top: 150px;
     left: 500px;
-    margin-bottom: 50px;
+;
 }
 
 aside {
@@ -25,20 +25,21 @@ header{
     position: fixed;
     z-index: 100;
     width: 100%;
+    max-height: 60%;
+    right: 10px;
 }
 
 header, footer {
     background-color: #efe6df;
-    overflow: hidden;
     border-radius: 20px;
     box-shadow: 4px 4px #938686;
 }
 
 footer{
     position: relative;
-    top: 200px;
     font-size: smaller;
-    right: 30px;
+    width: 100%;
+    top: 150px;
     float: right;
 }
 
@@ -177,6 +178,7 @@ fieldset {
     margin-top: 20px;
     position: relative;
     left: 100px;
+    right: 0    ;
     background-color: #aaa;
     width: 50%;
     border-radius: 15px;
