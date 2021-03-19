@@ -71,8 +71,6 @@
 
 #img-kontener{
     margin: 20px auto;
-    width: 40%;
-    height: 60%;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(100px, 250px));
 }
